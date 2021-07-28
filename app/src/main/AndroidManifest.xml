@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="appmecrel.com.br.appmecrel" android:isolatedProcess="true" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icone"
+        android:label="Crt Mobile"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".controller.PrincipalActivity"
+            android:label="Principal"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name=".controller.ControleExtintorActivity"
+            android:label="Controle de Extintores"
+            android:screenOrientation="portrait" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".controller.ControleExtintor1Activity"
+            android:label="Consulta"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.CargaActivity"
+            android:label="@string/title_activity_carga"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".controller.ConfiguracoesActivity"
+            android:label="Configurações"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".controller.ChaveActivity"
+            android:label="Chave"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".controller.AcessoActivity"
+            android:label="Crt Mobile"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.ControleMangueiraActivity"
+            android:label="Controle de Mangueiras"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.ControleMangueira1Activity"
+            android:label="Consulta de Mangueiras"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.Cliente2Activity"
+            android:label="Consulta de Clientes"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

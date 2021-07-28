@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="20dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servidor"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:lines="1"
+        android:id="@+id/edtConexaoServidor"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Porta"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:lines="1"
+        android:id="@+id/edtConexaoPorta"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diretorio"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:lines="1"
+        android:id="@+id/edtConexaoDiretorio"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:lines="1"
+        android:id="@+id/edtConexaoUsuario"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:lines="1"
+        android:inputType="textPassword"
+        android:id="@+id/edtConexaoSenha"/>
+
+
+</LinearLayout>

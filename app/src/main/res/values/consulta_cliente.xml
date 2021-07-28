@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipoConsulta">
+        <item id="1">Nome que Comece</item>
+        <item id="2">Nome que Contenha</item>
+        <item id="3">Codigo</item>
+        <item id="4">Cpf/Cnpj</item>
+    </string-array>
+
+</resources>

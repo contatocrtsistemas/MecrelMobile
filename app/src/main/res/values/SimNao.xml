@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simnao">
+        <item>Sim</item>
+        <item>Nao</item>
+    </string-array>
+</resources>

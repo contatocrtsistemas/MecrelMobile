@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+    <TextView
+        android:layout_width="560dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListClienteNome"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textSize="20dp"
+        android:lines="1"/>
+   </LinearLayout>
+</LinearLayout>

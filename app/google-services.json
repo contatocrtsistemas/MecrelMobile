@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "871792890888",
+    "firebase_url": "https://appmecrel.firebaseio.com",
+    "project_id": "appmecrel",
+    "storage_bucket": "appmecrel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871792890888:android:6b2075206411e290",
+        "android_client_info": {
+          "package_name": "appmecrel.com.br.appmecrel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871792890888-95pdmesemsgbvi1q23dhr8qu4q0agsoo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "appmecrel.com.br.appmecrel",
+            "certificate_hash": "6b6189e31626f2a59ac9e3050162c52191fd2361"
+          }
+        },
+        {
+          "client_id": "871792890888-k4a76m5bgaiag1slfsjn2btb2b8r5eb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTxaLKAyaP1VbNQcdm-AtzprxckFzHUXI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871792890888-k4a76m5bgaiag1slfsjn2btb2b8r5eb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

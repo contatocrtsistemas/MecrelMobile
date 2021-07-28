@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tvListNoCert"
+        android:textSize="20dp"
+        android:lines="1"
+        android:textColor="#FF000000"/>
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListNoFabric"
+        android:enabled="false"
+        android:lines="1"
+        android:textSize="20dp"
+        android:textColor="#FF000000"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListMesAno"
+        android:textSize="20dp"
+        android:lines="1"
+        android:enabled="false"
+        android:textColor="#FF000000"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:id="@+id/tvListMarca"
+        android:textSize="20dp"
+        android:lines="1"
+        android:background="#05000000"
+        android:textColor="#FF000000"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListCapacidade"
+        android:layout_marginLeft="5dp"
+        android:enabled="false"
+        android:textSize="20dp"
+        android:lines="1"
+        android:background="#05000000"
+        android:textColor="#FF000000"/>
+    <TextView
+        android:layout_width="65dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListNoOS"
+        android:background="#05000000"
+        android:enabled="false"
+        android:textSize="20dp"
+        android:lines="1"
+        android:textColor="#FF000000"/>
+
+</LinearLayout>
+

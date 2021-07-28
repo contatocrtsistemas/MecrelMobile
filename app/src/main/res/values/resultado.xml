@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="resultado">
+        <item>Aprovado</item>
+        <item>Reprovado</item>
+        <item>Furado</item>
+        <item>S/ Identificação</item>
+        <item>Análise</item>
+        <item> </item>
+    </string-array>
+</resources>

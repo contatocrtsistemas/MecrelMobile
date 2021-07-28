@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos">
+        <item>CO2</item>
+        <item>PÓ BC</item>
+        <item>AMP</item>
+        <item>AP</item>
+        <item>AG</item>
+        <item>N2</item>
+        <item>PÓ ABC</item>
+        <item>EM</item>
+        <item>C.AR</item>
+        <item>C.CO2</item>
+        <item>HTN</item>
+        <item>K</item>
+    </string-array>
+</resources>

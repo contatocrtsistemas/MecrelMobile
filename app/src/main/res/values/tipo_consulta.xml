@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipo_consulta">
+        <item>No OS</item>
+        <item>Nome Fabricante</item>
+        <item>Pendente</item>
+        <item>Enviado</item>
+    </string-array>
+</resources>
